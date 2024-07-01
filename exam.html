@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin: 5px;
+        }
+
+        .completed {
+            text-decoration: line-through;
+        }
+
+        .priority-easy {
+            color: green;
+        }
+
+        .priority-moderate {
+            color: orange;
+        }
+
+        .priority-hard {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Recipe Manager</h1>
+    <label for="recipee">Enter Recipe:</label>
+    <input type="text" id="recipee"> <br> <br>
+    <label for="priorityy">Enter Difficulty level (1-Easy, 2-Moderate, 3-Hard):</label>
+    <input type="text" id="priorityy"> <br> <br>
+    <button onclick="addFun ()" style="margin-left: 200px;">Add Recipe</button>
+    <ul id="list"></ul>
+
+
+    <h1 id="display">
+        
+    </h1>
+
+    <script src="exam.js"></script>
+</body>
+
+</html>
